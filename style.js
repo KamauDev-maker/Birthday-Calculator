@@ -1,3 +1,4 @@
 function calculateBirthday(){
-    console.log('button clicked');
+    const fullName=document.getElementsByName('fname').value;
+    const genDer=document.getElementsByName('gender').value
 }
