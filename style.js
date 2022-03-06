@@ -31,6 +31,7 @@ function calculateBirthday(){
         case 6: dayString="Saturday";
         break;
     }
+    let textAnswer=document.createTextNode('The day is' + dayofweek);
 
     return dayString;
 
