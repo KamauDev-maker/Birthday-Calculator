@@ -32,12 +32,15 @@ label,
 button{
     font-size: 18px;
     font-weight: 800;
+    justify-items: center;
 }
 button{
      width:100%;
      border: none;
-     border-radius: 10px;
+     border-radius: 20px;
      margin: 20px 0px 10px 0px;
      background-color: aqua;
+     border-radius: 20px;
+     color: white;
 
  }
