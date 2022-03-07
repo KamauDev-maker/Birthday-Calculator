@@ -19,13 +19,11 @@ div.container{
     border-radius: 10px;
     padding: 50px 30px;
 }
-div.input_box{
-    padding: 30px 25px;
-}
 input{
     padding: 5px;
     height: 40px;
     margin: 0px 0px 10px 0px;
+    display: flex;
 }
 input,
 label,
@@ -54,9 +52,15 @@ button{
  p{
      padding: 20px;
      margin: 10px;
-     font-size:1rem;
+     font-size:1.5rem;
      color: black;
+     font-style: italic;
  }
- table{
-     width: 40%;
+ div.follow{
+     font-size: 2rem;
+ }
+ div.follow a{
+     align-items: center;
+     justify-content: center;
+     padding: 10px;
  }
