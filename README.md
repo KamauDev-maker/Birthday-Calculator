@@ -1,6 +1,6 @@
 #Day of the Week Calculator
 ## Description
-This is a Web Application that takes a user's birthday and calculates the day of the week they were born.The landing page can be viewed at LINK!!!.
+This is a Web Application that takes a user's birthday and calculates the day of the week they were born.The landing page can be viewed at [Birthday Calculator
 ##### *Created By Oscar Njenga  2022-03-07 14:50:10 Monday*
 ##  Setup Instructions and Installation
 - Clone this repository to your desktop by navigating to the desktop Terminal and enter "git clone" followed by the link to this repository.
