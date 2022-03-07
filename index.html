@@ -4,22 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title> Akan Names</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="/images/akantitle.ico" />
+  <title>Akan Names</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="./style.css">
+
 </head>
 <body>
     <p>A web Application that takes a user's<br> Birthday and calculates the day of <br>the week they were born.</p>
       <div class="container">
         <h2>Fill in Your Details Here.</h2>
-        <div name="myForm" class="form" >
+        <form name="myForm" class="form" onsubmit="validate();">
           <div class="form-group">
             <label for="number">Year of Birth:</label>
-            <input type="number" class="form-control" id="year   " placeholder="Year of Birth" name="year">
+            <input type="number" class="form-control" id="year" placeholder="Year of Birth" name="year">
           </div>
           <div class="form-group">
             <label for="month">Month of Birth:</label>
-            <input type="number" class="form-control" id="month" placeholder="Birth Month" name="month">
+            <input type="number" class="form-control" id="month" placeholder="Month of Birth" name="month">
           </div>
           <div class="form-group">
             <label for="date">Date of Birth:</label>
@@ -38,11 +40,12 @@
               </label>
             </div>
           </div>
-          <button type="submit" class="btn btn-primary" onclick="findName()">Get Name</button>
-        </div>
-        <div class="results">
-            <output type="text" id="result">This is output</output>
-        </div>
+          <button type="submit" class="btn btn-primary" onclick="findName();">Get Name</button>
+          <br>
+        </form>
+        <p id="results"> </p>
+    
+  
         <footer>
             <div class="follow">
                 <a href="https://twitter.com/Oscarkamah" target="_blank" class="fab fa-twitter"></a>
@@ -51,6 +54,7 @@
 
             </div>
         </footer>
-   <script src="./index.js"></script>
+     <script src="./index.js"></script>
+    </div>
 </body>
 </html>
