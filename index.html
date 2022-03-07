@@ -12,10 +12,10 @@
     <p>A web Application that takes a user's<br> Birthday and calculates the day of <br>the week they were born.</p>
       <div class="container">
         <h2>Fill in Your Details Here.</h2>
-        <form name="myForm" class="form" onsubmit="validate();">
+        <div name="myForm" class="form" >
           <div class="form-group">
             <label for="number">Year of Birth:</label>
-            <input type="number" class="form-control" id="year" placeholder="Year of Birth" name="year">
+            <input type="number" class="form-control" id="year   " placeholder="Year of Birth" name="year">
           </div>
           <div class="form-group">
             <label for="month">Month of Birth:</label>
@@ -38,9 +38,11 @@
               </label>
             </div>
           </div>
-          <button type="submit" class="btn btn-primary" onclick="findName();">Get Name</button>
-        </form>
-        <p id="results"> </p>
+          <button type="submit" class="btn btn-primary" onclick="findName()">Get Name</button>
+        </div>
+        <div class="results">
+            <output type="text" id="result">This is output</output>
+        </div>
         <footer>
             <div class="follow">
                 <a href="https://twitter.com/Oscarkamah" target="_blank" class="fab fa-twitter"></a>
